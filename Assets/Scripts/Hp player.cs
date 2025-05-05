@@ -7,6 +7,8 @@ public class PlayerHealth : MonoBehaviour
     public int currentHP;
     public Slider healthSlider;
 
+    private bool isDead = false;
+
     void Start()
     {
         currentHP = maxHP;
@@ -23,6 +25,8 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (isDead) return;
+
         currentHP -= damage;
         if (currentHP < 0) currentHP = 0;
 
@@ -42,9 +46,18 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void Die()
+    // ✅ เปลี่ยนจาก private → public
+    public void Die()
     {
+        if (isDead) return;
+
+        isDead = true;
         Debug.Log("Player Died");
-        gameObject.SetActive(false); // หรือลอง SceneManager.LoadScene("GameOver")
+
+        // ปิด GameObject หรือโหลดฉากใหม่
+        gameObject.SetActive(false);
+
+        // หรือ:
+        // SceneManager.LoadScene("GameOver");
     }
 }
