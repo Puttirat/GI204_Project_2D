@@ -4,6 +4,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb2d;
+    private Vector2 moveInput; //for walk with addforce
+    
     private float move;
     [SerializeField] private float speed;
         
@@ -20,13 +22,13 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Walk
-        move = Input.GetAxis("Horizontal");
-
-        rb2d.linearVelocity = new Vector2(move * speed, rb2d.linearVelocity.y);
         
-        //Jump
-        if (Input.GetButtonDown("Jump") && !isjumping)
+
+     move = Input.GetAxis("Horizontal");
+     rb2d.linearVelocity = new Vector2(move * speed, rb2d.linearVelocity.y);
+
+    //Jump
+    if (Input.GetButtonDown("Jump") && !isjumping)
         {
             rb2d.AddForce(new Vector2(rb2d.linearVelocity.x , jumpForce));
             Debug.Log("Jump!");
