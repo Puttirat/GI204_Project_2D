@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0503290d-7bf2-4525-9998-5ebb47c56a64" name="Changes" comment="" />
+    <list default="true" id="0503290d-7bf2-4525-9998-5ebb47c56a64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GI204_Project_2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GI204_Project_2D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Folder/Player Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Folder/Player Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746460049481</updated>
       <workItem from="1746460050929" duration="2977000" />
-      <workItem from="1746463087251" duration="208000" />
+      <workItem from="1746463087251" duration="1352000" />
     </task>
     <servers />
   </component>
