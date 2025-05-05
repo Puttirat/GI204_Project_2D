@@ -56,8 +56,7 @@ public class PlayerHealth : MonoBehaviour
 
         // ปิด GameObject หรือโหลดฉากใหม่
         gameObject.SetActive(false);
-
-        // หรือ:
-        // SceneManager.LoadScene("GameOver");
+        
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
     }
 }

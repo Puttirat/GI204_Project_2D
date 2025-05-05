@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0503290d-7bf2-4525-9998-5ebb47c56a64" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GI204_Project_2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GI204_Project_2D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Goal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hp player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hp player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +107,10 @@
       <workItem from="1746473326138" duration="122000" />
       <workItem from="1746473482770" duration="24000" />
       <workItem from="1746474298848" duration="1239000" />
+      <workItem from="1746475932727" duration="256000" />
+      <workItem from="1746476412500" duration="184000" />
+      <workItem from="1746476711506" duration="242000" />
+      <workItem from="1746477007260" duration="427000" />
     </task>
     <servers />
   </component>

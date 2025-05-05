@@ -11,7 +11,7 @@ public class Goal : MonoBehaviour
             {
                 Debug.Log("WIN! เข้าเส้นชัยแล้ว");
                 // ตัวอย่าง: โหลดฉากใหม่
-                // SceneManager.LoadScene("NextScene");
+                 SceneManager.LoadScene("End Game");
             }
             else
             {
