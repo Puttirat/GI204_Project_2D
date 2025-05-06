@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0503290d-7bf2-4525-9998-5ebb47c56a64" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GI204_Project_2D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GI204_Project_2D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameOver.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/End Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndCredit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndCredit.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Gameplay2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Gameplay2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Goal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Goal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hp player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hp player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +38,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -46,7 +49,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\6000.0.41f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\Oti\OneDrive\เดสก์ท็อป\Git\Natthaphol_Lab10_2DPhysics\GI204_Project_2D -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Oti\OneDrive\เดสก์ท็อป\Git\Natthaphol_Lab10_2DPhysics\GI204_Project_2D" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -54,7 +57,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\6000.0.41f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Oti\OneDrive\เดสก์ท็อป\Git\Natthaphol_Lab10_2DPhysics\GI204_Project_2D -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Oti\OneDrive\เดสก์ท็อป\Git\Natthaphol_Lab10_2DPhysics\GI204_Project_2D" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -112,6 +115,10 @@
       <workItem from="1746476711506" duration="242000" />
       <workItem from="1746477007260" duration="427000" />
       <workItem from="1746539194683" duration="1197000" />
+      <workItem from="1746551629470" duration="835000" />
+      <workItem from="1746552480884" duration="477000" />
+      <workItem from="1746553247686" duration="165000" />
+      <workItem from="1746553434375" duration="71000" />
     </task>
     <servers />
   </component>

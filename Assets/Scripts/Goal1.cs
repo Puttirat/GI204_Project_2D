@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement; // ถ้าอยากโหลดฉาก
 
-public class Goal : MonoBehaviour
+public class Goal1 : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -11,7 +11,7 @@ public class Goal : MonoBehaviour
             {
                 Debug.Log("WIN! เข้าเส้นชัยแล้ว");
                 // ตัวอย่าง: โหลดฉากใหม่
-                 SceneManager.LoadScene("Gameplay2");
+                 SceneManager.LoadScene("End Game");
             }
             else
             {

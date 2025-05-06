@@ -11,14 +11,14 @@ public class Projectile : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Vector2 forward = transform.right;
-        rb.velocity = forward * speed;
+        rb.linearVelocity = forward * speed;
 
         Destroy(gameObject, lifetime);
     }
 
     void Update()
     {
-        if (rb.velocity.magnitude < minVelocity)
+        if (rb.linearVelocity.magnitude < minVelocity)
         {
             Destroy(gameObject);
         }
